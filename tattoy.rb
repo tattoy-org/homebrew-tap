@@ -4,4 +4,12 @@ class Tattoy < Formula
   version "0.1.1"
   url "https://github.com/tattoy-org/tattoy/releases/download/v0.1.1/tattoy-aarch64-apple-darwin.tar.gz"
   sha256 "088825eac8c7ae1c61caaa7ed76d5b03482cdfd39ebaef79434cafc96afc080f"
+  
+  def install
+    bin.install "tattoy"
+  end
+  
+  test do
+    system "#{bin}/tattoy --version"
+  end
 end
