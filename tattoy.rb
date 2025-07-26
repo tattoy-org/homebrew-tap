@@ -1,9 +1,9 @@
 class Tattoy < Formula
   desc "Text-based terminal compositor"
   homepage "https://tattoy.sh"
-  version "0.1.3"
-  url "https://github.com/tattoy-org/tattoy/releases/download/v0.1.3/tattoy-aarch64-apple-darwin.tar.gz"
-  sha256 "821f410decf71f6b10a105c0a32e58a66e380d508d04b0f7edaa478d3d2bd711"
+  version "0.1.7"
+  url "https://github.com/tattoy-org/tattoy/releases/download/tattoy-v0.1.7/tattoy-aarch64-apple-darwin.tar.gz"
+  sha256 "603442d2b6fc40fac3bf5f61e7947a040b7ee9ef9739ea033f75f8b7917c33dd"
   
   def install
     bin.install "tattoy"
