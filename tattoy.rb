@@ -3,7 +3,7 @@ class Tattoy < Formula
   homepage "https://tattoy.sh"
   version "0.1.7"
   url "https://github.com/tattoy-org/tattoy/releases/download/tattoy-v0.1.7/tattoy-aarch64-apple-darwin.tar.gz"
-  sha256 "603442d2b6fc40fac3bf5f61e7947a040b7ee9ef9739ea033f75f8b7917c33dd"
+  sha256 "e2a191c539a0f98f4d35cd0eb097eb4ee5cb02c5f407b8653ab8bfd3d2c5f8b3"
   
   def install
     bin.install "tattoy"
